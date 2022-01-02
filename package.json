@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node Complete Node.js guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyspanish2112/nodejs.git"
+  },
+  "author": "Ross Starkey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickyspanish2112/nodejs/issues"
+  },
+  "homepage": "https://github.com/rickyspanish2112/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
+}
