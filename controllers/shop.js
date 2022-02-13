@@ -34,7 +34,14 @@ exports.getCart = (req, res, next) => {
     path: '/cart',
     pageTitle: 'Your Cart',
     activeCart: true,
-    activeCart: true
+  });
+};
+
+exports.getOrders = (req, res, next) => {
+  res.render('shop/orders', {
+    path: '/orders',
+    pageTitle: 'Your Orders',
+    activeOrders: true,
   });
 };
 
